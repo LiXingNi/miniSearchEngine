@@ -145,7 +145,8 @@ class CentralControl:
             print "url : ",info[1]
             print "hits : ",hit_times
             print "------------------------------------"
-        
+   
+'''     
 if __name__ == "__main__":
     central_control = CentralControl()
     while True:
@@ -154,4 +155,4 @@ if __name__ == "__main__":
 
     central_control.conn.close()
     central_control.org_conn.close()
-    
+    '''

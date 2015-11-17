@@ -129,7 +129,7 @@ def createFTable():
     b_cursor = b_conn.cursor()
     
     #parse orgData
-    lineNum = 200000
+    lineNum = 10000
     cursor.execute('SELECT * FROM orgTable')
     orgData = cursor.fetchmany(lineNum)  #each Forward Table have lineNum lines
     
